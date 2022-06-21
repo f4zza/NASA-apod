@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-size: 10px;
+  background:radial-gradient(ellipse at bottom, #0D1E31, #111);
 }
 
 h1 {
