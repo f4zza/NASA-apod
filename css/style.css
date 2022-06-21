@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 4em;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 5em;
+  color: white;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 1.8em;
+  text-align: left;
+  line-height: 1.5;
+  color: white;
+}
+
+img, iframe, h3 {
+  width: 50%;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+h4 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.9em;
+}
+
+iframe {
+  height: auto;
+}
+
+.topSection {
+  background:radial-gradient(ellipse at bottom, #0D1E31, #111);
+  color: white;
+}
+
+.topSection input {
+  display: block;
+  margin: 35px auto 15px auto;
+  width: 164px;
+  box-shadow: 0 0 25px white;
+}
+
+.topSection button {
+  margin-bottom: 35px;
+}
+
+.topSection button {
+  border: 3px solid white;
+  border-color: transparent;
+}
+
+.topSection button:hover {
+  background: rgb(14,14,14);
+  border: 3px solid white;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.nasaLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.dateBtn {
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.dateInput::-webkit-datetime-edit { padding: 0.1em; }
+::-webkit-datetime-edit-fields-wrapper { background: rgb(14,14,14); border-radius: 5px;}
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em}
+::-webkit-datetime-edit-month-field { color: red; }
+::-webkit-datetime-edit-day-field { color: white; }
+::-webkit-datetime-edit-year-field { color: blue; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: rgb(22,47,144); margin: 0.3em; border-radius: 15px;} 
+
+.dateInput {
+  border: 0 solid transparent;
+  border-radius: 5px;
+  background: rgb(14,14,14);
+  padding: 3px;
+  color: white;
+}
+
+.midSection {
+  background: rgb(14,14,14)
+}
+
+
+.midSection div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.midSection div img {
+  height: 600px;
+  border-radius: 10%;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hidden {
+  display: none;
+}
