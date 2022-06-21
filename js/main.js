@@ -2,7 +2,7 @@ document.querySelector('button').addEventListener('click', getPic)
 
 function getPic(){
     const dateInput = document.querySelector('.dateInput').value;
-    const url = (`https://api.nasa.gov/planetary/apod?api_key=PlaULcJgKNsfFtiTN6OjmghePhrRRgLu8gh5Cvmx&date=${dateInput}`)
+    const url = (`https://api.nasa.gov/planetary/apod?api_key=key_from_nasa=${dateInput}`)
     console.log(dateInput);
     
     fetch(url)
